@@ -1,0 +1,433 @@
+@import url(style.css);
+
+body {
+  background-color: white;
+}
+
+.navbar {
+  background-color: white;
+  padding: 12px 120px;
+  border-bottom: 1px solid #3a35411f;
+  justify-content: space-between;
+}
+.navbar-logo {
+  width: 100%;
+  max-width: 237px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.container {
+  padding: 64px 120px;
+  gap: 36px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.card-container {
+  width: 590px;
+  height: auto;
+  padding: 36px;
+  border: 1px solid #f1f1f1;
+  border-radius: 4px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: white;
+}
+.card-header h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 110.00000000000001%;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #222325;
+}
+.card-header p {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+  text-align: center;
+  margin-bottom: 36px;
+  color: #333333ad;
+}
+.card-form {
+  width: 100%;
+  position: relative;
+}
+.form-label {
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+  color: #333333ad;
+  margin-bottom: 4px;
+  display: block;
+}
+.form-label-jenkel {
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+  color: #333333ad;
+  margin-bottom: 4px;
+  display: none;
+}
+.required-star {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  color: #ff5c2b;
+}
+
+.form-input {
+  width: 518px;
+  height: 48px;
+  border-radius: 6px;
+  border: #3a35411f solid 1px;
+  padding: 8px;
+  gap: 8px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+  align-items: center;
+  color: #222325;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.jenkel {
+  padding: 4px 10px;
+  width: 280px;
+  height: 48px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+  color: #222325;
+  width: 100%;
+  border: #3a35411f 1px solid;
+  border-radius: 6px;
+  appearance: none;
+  margin-bottom: 16px;
+  display: none;
+}
+.jenkel-icon {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 9px;
+  top: 29.5%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  display: none;
+}
+.input-nomor {
+  display: flex;
+  margin-bottom: 16px;
+}
+.foto-nomor {
+  width: 156.67px;
+  height: 48px;
+  border-radius: 6px;
+  border: 1px solid #3a35411f;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  margin-right: 24px;
+}
+.kolom-negara {
+  border-right: 1px solid #3a35411f;
+  background-color: #f4f5fa;
+  padding: 12px 10px;
+}
+.foto-negara {
+  display: flex;
+  width: 24px;
+  height: 24px;
+}
+.no-indo {
+  padding: 4px 10px;
+  gap: 8px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+}
+
+.foto-no {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 128px;
+  top: 33.2%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.full-nomor {
+  flex: 1;
+  width: 337.33px;
+  height: 48px;
+  border-radius: 6px;
+  border: #3a35411f 1px solid;
+  padding: 4px 10px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+}
+.input-password {
+  width: 100%;
+  height: 48px;
+  border-radius: 6px;
+  border: #f1f1f1 1px solid;
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+  color: #1d2433;
+  padding: 12px;
+  margin-bottom: 16px;
+  padding-right: 45px;
+}
+.eye-off {
+  width: 24px;
+  height: auto;
+  position: absolute;
+  bottom: 52%;
+  right: 3%;
+  cursor: pointer;
+}
+.eye-off2 {
+  width: 24px;
+  height: auto;
+  position: absolute;
+  bottom: 39.5%;
+  right: 3%;
+  cursor: pointer;
+}
+.lupa-password {
+  text-align: right;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+  color: #333333ad;
+  margin-bottom: 24px;
+}
+.lupa-password:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.btn-daftar {
+  width: 100%;
+  height: 42px;
+  background-color: #3ecf4c;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+.name-btn-daftar {
+  padding: 10px 26px;
+  gap: 8px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+.btn-masuk {
+  width: 100%;
+  height: 42px;
+  background-color: #e2fcd9cc;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+.name-btn-masuk {
+  padding: 10px 26px;
+  gap: 8px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+  color: #3ecf4c;
+}
+
+.kata-atau {
+  display: flex;
+  margin-bottom: 24px;
+  align-items: center;
+  justify-content: center;
+}
+hr {
+  border: none;
+  flex: 1;
+  border-bottom: 2px solid #f1f1f1;
+}
+.atau {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+  color: #4a505c;
+  gap: 10px;
+  text-align: center;
+}
+.btn-google {
+  width: 100%;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid #f1f1f1;
+  padding: 8px 26px;
+  gap: 8px;
+  cursor: pointer;
+}
+.img-google {
+  width: 15px;
+  height: 20px;
+}
+.text-google {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  font-style: bold;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+  color: #4a505c;
+}
+
+@media (max-width: 1024px) {
+  .navbar {
+    padding: 16px 24px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+  .navbar-logo {
+    width: 152px;
+  }
+  .container {
+    padding: 28px 20px;
+    gap: 24px;
+  }
+  .card-container {
+    width: 320px;
+    padding: 20px;
+    gap: 20px;
+  }
+  .card-header h3 {
+    font-size: 24px;
+  }
+  .card-header p {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  .form-label {
+    font-size: 14px;
+  }
+  .form-label-jenkel {
+    font-size: 14px;
+    display: block;
+  }
+  .form-input {
+    width: 280px;
+    font-size: 14px;
+    margin-bottom: 12px;
+  }
+  .jenkel {
+    margin-bottom: 12px;
+    width: 100%;
+    display: block;
+  }
+  .jenkel-icon {
+    right: 9px;
+    top: 30.9%;
+    display: block;
+  }
+  .input-nomor {
+    margin-bottom: 12px;
+  }
+  .foto-nomor {
+    width: 122px;
+    margin-right: 12px;
+  }
+  .no-indo {
+    font-size: 14px;
+  }
+  .full-nomor {
+    flex: 1;
+    width: 146px;
+    font-size: 14px;
+  }
+  .input-password {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    padding-right: 42px;
+  }
+  .foto-no {
+    left: 92px;
+    top: 42.5%;
+  }
+  .eye-off {
+    bottom: 43.9%;
+  }
+  .eye-off2 {
+    bottom: 32.4%;
+  }
+  .lupa-password {
+    font-size: 14px;
+  }
+  .btn-daftar {
+    height: 34px;
+  }
+  .name-btn-daftar {
+    padding: 7px 22px;
+    font-size: 14px;
+  }
+  .btn-masuk {
+    height: 34px;
+  }
+  .name-btn-masuk {
+    padding: 7px 22px;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  .kata-atau {
+    margin-bottom: 20px;
+  }
+  .atau {
+    font-size: 14px;
+  }
+  .btn-google {
+    height: 34px;
+  }
+  .text-google {
+    font-size: 14px;
+  }
+}

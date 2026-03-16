@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="../style/register.css" />
+    <link
+      rel="shortcut icon"
+      href="../images/mini-icon.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <img class="navbar-logo" src="../images/logo.png" alt="" />
+    </nav>
+
+    <div class="container">
+      <main class="card-container">
+        <div class="card-header">
+          <h3>Pendaftaran Akun</h3>
+          <p>Yuk, daftarkan akunmu sekarang juga!</p>
+        </div>
+        <form action="#" class="card-form">
+          <label for="nama" class="form-label"
+            >Nama Lengkap <span class="required-star">*</span></label
+          >
+          <input type="text" name="nama" class="form-input" />
+          <label for="email" class="form-label"
+            >Email <span class="required-star">*</span></label
+          >
+          <input type="text" name="email" class="form-input" />
+          <label for="jenis-kelamin" class="form-label-jenkel"
+            >Jenis Kelamin <span class="required-star">*</span></label
+          >
+          <select name="jenis-kelamin" class="jenkel">
+            <option value="laki-laki">Pria</option>
+            <option value="wanita">Wanita</option>
+          </select>
+          <img src="../images/Icon.png" class="jenkel-icon" alt="" />
+          <label for="no-hp" class="form-label"
+            >No. Hp <span class="required-star">*</span></label
+          >
+          <div class="input-nomor">
+            <div class="foto-nomor">
+              <div class="kolom-negara">
+                <img
+                  src="../images/Group.png"
+                  alt="Indonesia"
+                  class="foto-negara"
+                />
+              </div>
+              <div>
+                <span class="no-indo">+62</span>
+                <img class="foto-no" src="../images/Icon.png" alt="" />
+              </div>
+            </div>
+            <input type="tel" class="full-nomor" />
+          </div>
+
+          <label for="kata-sandi" class="form-label"
+            >Kata Sandi <span class="required-star">*</span></label
+          >
+          <input type="password" class="input-password" />
+          <img class="eye-off" src="../images/eye-off.png" alt="" />
+          <label for="konfirmasi-kata-sandi" class="form-label"
+            >Konfimasi Kata Sandi</label
+          >
+          <input type="password" class="input-password" />
+          <img class="eye-off2" src="../images/eye-off.png" alt="" />
+          <div class="lupa-password">
+            <p>Lupa Password?</p>
+          </div>
+          <button type="submit" class="btn-daftar">
+            <div class="name-btn-daftar">
+              <p>Daftar</p>
+            </div>
+          </button>
+          <button type="submit" class="btn-masuk">
+            <div class="name-btn-masuk">
+              <p>Masuk</p>
+            </div>
+          </button>
+          <div class="kata-atau">
+            <hr />
+            <span class="atau">atau</span>
+            <hr />
+          </div>
+          <button type="submit" class="btn-google">
+            <div class="img-google">
+              <img src="../images/logo_google.png" alt="" />
+            </div>
+            <span></span>
+            <div class="text-google">
+              <p>Daftar dengan Google</p>
+            </div>
+          </button>
+        </form>
+      </main>
+    </div>
+  </body>
+</html>
