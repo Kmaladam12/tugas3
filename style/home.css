@@ -5,10 +5,19 @@ body {
 }
 
 .navbar {
-  padding: 12px 120px;
+  padding: 12px 77px;
   border-bottom: solid 1px #3a35411f;
   background-color: #ffffff;
   display: flex;
+}
+.navbar-logo {
+  width: 100%;
+  max-width: 237px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
 .left1 {
   margin-left: auto;
@@ -485,6 +494,9 @@ body {
     padding: 16px 24px;
     border-top: solid 1px #3a35411f;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+  .navbar-logo {
+    width: 152px;
   }
   .left1 p {
     display: none;
