@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="style/login.css" />
+    <link rel="shortcut icon" href="images/mini-icon.png" type="image/x-icon" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <img class="navbar-logo" src="images/logo.png" alt="videobelajar" />
+    </nav>
+    <div class="container">
+      <main class="card-container">
+        <div class="card-header">
+          <p>Masuk ke Akun</p>
+          <p>Yuk, lanjutin belajarmu di videobelajar.</p>
+        </div>
+
+        <form class="card-form" action="#">
+          <label for="email" class="form-label"
+            >E-Mail <span class="required-star">*</span></label
+          >
+          <input type="text" class="form-input" name="email" placeholder="" />
+          <label for="password" class="form-label"
+            >Kata Sandi <span class="required-star">*</span></label
+          >
+          <input
+            type="password"
+            class="form-input"
+            name="password"
+            placeholder=""
+          />
+          <img src="images/eye-off.png" class="password-icon" alt="" />
+          <div class="lupa-password">
+            <a href="#">Lupa password?</a>
+          </div>
+          <button type="submit" class="btn-masuk">
+            <div class="name-btn-masuk">
+              <p>Masuk</p>
+            </div>
+          </button>
+          <br />
+          <button type="submit" class="btn-daftar">
+            <div class="name-btn-daftar">
+              <p>Daftar</p>
+            </div>
+          </button>
+          <div class="kata-atau">
+            <hr />
+            <span>atau</span>
+            <hr />
+          </div>
+          <button class="btn-google">
+            <div class="img-google">
+              <img src="images/logo_google.png" alt="Google-icon" />
+            </div>
+            <span></span>
+            <div class="text-google">
+              <p>Masuk dengan Google</p>
+            </div>
+          </button>
+        </form>
+      </main>
+    </div>
+  </body>
+</html>
